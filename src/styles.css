@@ -1,0 +1,132 @@
+.movie-app {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(187, 175, 187, 0.15);
+    color: #6C72B7;
+    padding-left: .2%;
+    padding-right: .2%;
+}
+
+.home-title, .home-subtitle {
+  text-align: center;
+}
+
+.home-title {
+  padding-top: 70px;
+  color: #3E4594;
+  font-size: 70px;
+  line-height: 1.0;
+}
+
+.home-subtitle {
+  font-size: 35px;
+  font-style: italic;
+}
+
+.home-content {
+  font-size: 30px;
+  padding-top: 70px;
+  padding-left: 1%;
+}
+
+.image-block {
+  padding-right: 0px;
+}
+
+.card-block {
+  padding-left: 0px;
+}
+
+.movie-img {
+  width: inherit;
+  height: 100%;
+}
+
+.movie-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #3E4594;
+}
+
+.movie-item {
+  cursor: pointer;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.movie-vote {
+  display: inline-flex;
+  padding-bottom: 0px;
+}
+
+.movie-vote-star {
+  padding-left: 10px;
+}
+
+.movie-vote-star-item {
+  color: red;
+}
+
+.movie-details {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.movie-production {
+  display: inline-flex;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.movie-production {
+  padding-top: 20px;
+}
+
+.movie-synopsis {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.productionCompany-item {
+  padding-top: 10px;
+}
+
+.productionCompany-img {
+  width: 30%;
+}
+
+.card:hover {
+  box-shadow: 0rem 0rem 4rem rgba(11, 3, 88, 0.664);
+  transform: scale(1.02);
+}
+
+.home-footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.home-footer-testimonial {
+  font-size: 30px;
+}
+
+.home-footer-magazin {
+  padding-left: 10px;
+  font-style: italic;
+}
+
+@media (max-width: 767px) {
+  .hide-large {
+      display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-small {
+      display: none;
+  }
+}
