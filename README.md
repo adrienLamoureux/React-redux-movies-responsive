@@ -1,4 +1,4 @@
-# Showtime-assessment
+# React-redux-movies-responsive
 
 List a set of movies, fetched from the https://www.themoviedb.org/
 
